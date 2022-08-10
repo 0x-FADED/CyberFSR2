@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{93674d18-8f54-42b7-aed6-a13dae57de36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\Hooking.Patterns">
+      <UniqueIdentifier>{5ff16d77-cd06-40c0-abd3-cb1e8d44b6d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -37,6 +43,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NvParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -70,6 +79,12 @@
     </ClCompile>
     <ClCompile Include="NvParameter.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\Hooking.Patterns\Hooking.Patterns.cpp">
+      <Filter>external\Hooking.Patterns</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
